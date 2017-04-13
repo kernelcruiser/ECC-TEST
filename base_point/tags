@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Authentication	ecc.c	/^bool Authentication(mp_int *GX,mp_int *GY,mp_int *QX,mp_int *QY, mp_int *a, mp_int *p, mp_int *n, unsigned char *m, mp_int *ux,  mp_int *uy, mp_int *s)$/;"	f
+BIT_LEN	ecc.c	13;"	d	file:
+BIT_LEN	ecc.h	259;"	d
+BN_FAST_MP_INVMOD_C	ecc.h	21;"	d
+BN_FAST_S_MP_MUL_DIGS_C	ecc.h	19;"	d
+BN_FAST_S_MP_SQR_C	ecc.h	15;"	d
+BN_MP_DIV_3_C	ecc.h	23;"	d
+BN_MP_DR_IS_MODULUS_C	ecc.h	25;"	d
+BN_MP_DR_REDUCE_C	ecc.h	36;"	d
+BN_MP_DR_SETUP_C	ecc.h	35;"	d
+BN_MP_EXPTMOD_FAST_C	ecc.h	27;"	d
+BN_MP_EXPTMOD_FAST_C	ecc.h	29;"	d
+BN_MP_EXPTMOD_FAST_C	ecc.h	31;"	d
+BN_MP_INVMOD_C	ecc.h	24;"	d
+BN_MP_INVMOD_SLOW_C	ecc.h	22;"	d
+BN_MP_KARATSUBA_SQR_C	ecc.h	14;"	d
+BN_MP_MONTGOMERY_CALC_NORMLIZATION_C	ecc.h	39;"	d
+BN_MP_MONTGOMERY_REDUCE_C	ecc.h	34;"	d
+BN_MP_MONTGOMERY_SETUP_C	ecc.h	33;"	d
+BN_MP_REDUCE_2K_C	ecc.h	38;"	d
+BN_MP_REDUCE_2K_SETUP_C	ecc.h	37;"	d
+BN_MP_REDUCE_IS_2K_C	ecc.h	26;"	d
+BN_MP_TOOM_MUL_C	ecc.h	17;"	d
+BN_MP_TOOM_SQR_C	ecc.h	13;"	d
+BN_S_MP_EXPTMOD_C	ecc.h	28;"	d
+BN_S_MP_EXPTMOD_C	ecc.h	32;"	d
+BN_S_MP_MUL_DIGS_C	ecc.h	20;"	d
+BN_S_MP_SQR_C	ecc.h	16;"	d
+BasePoint	ecc.c	/^void BasePoint(mp_int *x1,mp_int *y1,mp_int *a,  mp_int *b,  mp_int *p, mp_int *n)$/;"	f
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O -g$/;"	m
+Check	ecc.c	/^char *Check(mp_int *mp)$/;"	f
+CheckKey	ecc.c	/^bool CheckKey(mp_int*QX,mp_int*QY,mp_int*sk,mp_int*n,mp_int*A,mp_int*B,mp_int*P)$/;"	f
+DIGIT	ecc.h	254;"	d
+DIGIT_BIT	ecc.h	119;"	d
+DIGIT_BIT	ecc.h	139;"	d
+DIGIT_BIT	ecc.h	142;"	d
+DIGIT_BIT	ecc.h	174;"	d
+Decrypt	ecc.c	/^bool Decrypt(mp_int *GX,mp_int *GY, mp_int *a, mp_int *b, mp_int *p,  mp_int *sk, unsigned char *mstr, mp_int *rx,  mp_int *ry, mp_int *c)$/;"	f
+EN_LONG	ecc.c	16;"	d	file:
+EN_LONG	ecc.h	262;"	d
+Ecc_points_mul	ecc.c	/^void Ecc_points_mul(mp_int *qx,mp_int *qy, mp_int *px, mp_int *py,mp_int *d,mp_int *a,mp_int *p)$/;"	f
+Encrypt	ecc.c	/^void Encrypt(mp_int *GX,mp_int *GY, mp_int *QX,mp_int *QY, mp_int *a, mp_int *p, mp_int *n,unsigned char *mstr, mp_int *rx,  mp_int *ry, mp_int *c)$/;"	f
+FunctionCheck	ecc.c	/^void FunctionCheck(mp_int GX,mp_int GY,mp_int P,mp_int A,mp_int B)$/;"	f
+GetPrime	ecc.c	/^int GetPrime(mp_int *m,int lon){$/;"	f
+KARATSUBA_MUL_CUTOFF	ecc.c	/^int KARATSUBA_MUL_CUTOFF = 74;$/;"	v
+KARATSUBA_SQR_CUTOFF	ecc.c	/^int KARATSUBA_SQR_CUTOFF = 124;$/;"	v
+KEY_LONG	ecc.c	14;"	d	file:
+KEY_LONG	ecc.h	260;"	d
+LTM_PRIME_2MSB_OFF	ecc.h	200;"	d
+LTM_PRIME_2MSB_ON	ecc.h	201;"	d
+LTM_PRIME_BBS	ecc.h	198;"	d
+LTM_PRIME_SAFE	ecc.h	199;"	d
+MAX	ecc.h	10;"	d
+MAX	ecc.h	9;"	d
+MIN	ecc.h	7;"	d
+MIN	ecc.h	8;"	d
+MP_28BIT	ecc.h	143;"	d
+MP_64BIT	ecc.h	84;"	d
+MP_DIGIT_BIT	ecc.h	177;"	d
+MP_DIGIT_MAX	ecc.h	179;"	d
+MP_EQ	ecc.h	183;"	d
+MP_GT	ecc.h	184;"	d
+MP_LT	ecc.h	182;"	d
+MP_MASK	ecc.h	178;"	d
+MP_MASK	ecc.h	205;"	d
+MP_MEM	ecc.h	190;"	d
+MP_NEG	ecc.h	187;"	d
+MP_NO	ecc.h	195;"	d
+MP_OKAY	ecc.h	189;"	d
+MP_PREC	ecc.h	224;"	d
+MP_PREC	ecc.h	226;"	d
+MP_RANGE	ecc.h	192;"	d
+MP_VAL	ecc.h	191;"	d
+MP_WARRAY	ecc.h	231;"	d
+MP_YES	ecc.h	194;"	d
+MP_ZPOS	ecc.h	186;"	d
+Max	ecc.c	18;"	d	file:
+Max	ecc.h	264;"	d
+NULL	ecc.h	47;"	d
+NULL	ecc.h	90;"	d
+NULL	ecc.h	92;"	d
+OBJS	Makefile	/^OBJS = ecc.o$/;"	m
+OPT_CAST	ecc.h	80;"	d
+PRIME_SIZE	ecc.h	149;"	d
+PRIME_SIZE	ecc.h	151;"	d
+P_LONG	ecc.c	15;"	d	file:
+P_LONG	ecc.h	261;"	d
+SIGN	ecc.h	255;"	d
+SetKey	ecc.c	/^void SetKey(mp_int*QX,mp_int*QY,mp_int*GX,mp_int*GY,mp_int*sk,mp_int*n,mp_int*A, mp_int*B,mp_int*P)$/;"	f
+Sign	ecc.c	/^void Sign(mp_int *GX,mp_int *GY, mp_int *a, mp_int *p, mp_int *n,mp_int *sk, unsigned char *m, mp_int *ux,  mp_int *uy, mp_int *s)$/;"	f
+TAB_SIZE	ecc.c	1688;"	d	file:
+TAB_SIZE	ecc.c	1690;"	d	file:
+TAB_SIZE	ecc.c	1981;"	d	file:
+TAB_SIZE	ecc.c	1983;"	d	file:
+TOOM_MUL_CUTOFF	ecc.c	/^int TOOM_MUL_CUTOFF = 350;$/;"	v
+TOOM_SQR_CUTOFF	ecc.c	/^int TOOM_SQR_CUTOFF = 400;$/;"	v
+Testy	ecc.c	/^bool Testy(mp_int *temp2, mp_int *y1,mp_int *p)$/;"	f
+Two_points_add	ecc.c	/^int Two_points_add(mp_int *x1,mp_int *y1,mp_int *x2,mp_int *y2,mp_int *x3,mp_int *y3,mp_int *a,mp_int *p)$/;"	f
+USED	ecc.h	253;"	d
+XCALLOC	ecc.h	161;"	d
+XFREE	ecc.h	159;"	d
+XMALLOC	ecc.h	158;"	d
+XREALLOC	ecc.h	160;"	d
+alloc	ecc.h	/^	int used, alloc, sign;$/;"	m	struct:__anon1
+bn_reverse	ecc.c	/^void bn_reverse(unsigned char *s, int len)$/;"	f
+bool	ecc.h	96;"	d
+dp	ecc.h	/^	mp_digit *dp;$/;"	m	struct:__anon1
+false	ecc.h	98;"	d
+fast_mp_invmod	ecc.c	/^int fast_mp_invmod (mp_int * a, mp_int * b, mp_int * c)$/;"	f
+fast_s_mp_mul_digs	ecc.c	/^int fast_s_mp_mul_digs (mp_int * a, mp_int * b, mp_int * c, int digs)$/;"	f
+fast_s_mp_sqr	ecc.c	/^int fast_s_mp_sqr (mp_int * a, mp_int * b)$/;"	f
+initflag	ecc.c	/^int initflag = 0 ;$/;"	v
+lnz	ecc.h	/^static const int lnz[16] = { 4, 0, 1, 0, 2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 1, 0 };$/;"	v
+lon	ecc.c	/^int lon=0;$/;"	v
+long64	ecc.h	/^typedef signed __int64     long64;$/;"	t
+long64	ecc.h	/^typedef signed long long   long64;$/;"	t
+ltm_prime_callback	ecc.h	/^typedef int ltm_prime_callback(unsigned char *dst, int len, void *dat);$/;"	t
+ltm_prime_tab	ecc.c	/^const mp_digit ltm_prime_tab[] = {$/;"	v
+main	ecc.c	/^void main(){$/;"	f
+mp_2expt	ecc.c	/^mp_2expt (mp_int * a, int b)$/;"	f
+mp_abs	ecc.c	/^int mp_abs(mp_int * a, mp_int * b)$/;"	f
+mp_add	ecc.c	/^int mp_add(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_add_d	ecc.c	/^int mp_add_d(mp_int * a, mp_digit b, mp_int * c)$/;"	f
+mp_addmod	ecc.c	/^	int mp_addmod(mp_int * a, mp_int * b, mp_int * c, mp_int * d)$/;"	f
+mp_clamp	ecc.c	/^void mp_clamp(mp_int * a)$/;"	f
+mp_clear	ecc.c	/^void mp_clear(mp_int * a)$/;"	f
+mp_clear_multi	ecc.c	/^void mp_clear_multi(mp_int *mp, ...) $/;"	f
+mp_cmp	ecc.c	/^int mp_cmp(mp_int * a, mp_int * b)$/;"	f
+mp_cmp_d	ecc.c	/^int mp_cmp_d(mp_int * a, mp_digit b)$/;"	f
+mp_cmp_mag	ecc.c	/^int mp_cmp_mag(mp_int * a, mp_int * b)$/;"	f
+mp_cnt_lsb	ecc.c	/^	int mp_cnt_lsb(mp_int *a)$/;"	f
+mp_copy	ecc.c	/^int mp_copy(mp_int * a, mp_int * b)$/;"	f
+mp_count_bits	ecc.c	/^int mp_count_bits(mp_int * a)$/;"	f
+mp_digit	ecc.h	/^typedef unsigned char      mp_digit;$/;"	t
+mp_digit	ecc.h	/^typedef unsigned long      mp_digit;$/;"	t
+mp_digit	ecc.h	/^typedef unsigned short     mp_digit;$/;"	t
+mp_div	ecc.c	/^int mp_div(mp_int * a, mp_int * b, mp_int * c, mp_int * d)   \/\/ ????????????????$/;"	f
+mp_div_2	ecc.c	/^int mp_div_2(mp_int * a, mp_int * b)$/;"	f
+mp_div_2d	ecc.c	/^int mp_div_2d(mp_int * a, int b, mp_int * c, mp_int * d)        $/;"	f
+mp_div_3	ecc.c	/^mp_div_3 (mp_int * a, mp_int *c, mp_digit * d)$/;"	f
+mp_div_d	ecc.c	/^int mp_div_d(mp_int * a, mp_digit b, mp_int * c, mp_digit * d)$/;"	f
+mp_dr_is_modulus	ecc.c	/^int mp_dr_is_modulus(mp_int *a)$/;"	f
+mp_dr_reduce	ecc.c	/^ mp_dr_reduce (mp_int * x, mp_int * n, mp_digit k)$/;"	f
+mp_dr_setup	ecc.c	/^ void mp_dr_setup(mp_int *a, mp_digit *d)$/;"	f
+mp_err	ecc.h	/^typedef int           mp_err;$/;"	t
+mp_exch	ecc.c	/^void mp_exch(mp_int * a, mp_int * b)$/;"	f
+mp_expt_d	ecc.c	/^int mp_expt_d(mp_int * a, mp_digit b, mp_int * c)$/;"	f
+mp_exptmod	ecc.c	/^int mp_exptmod(mp_int * G, mp_int * X, mp_int * P, mp_int * Y)$/;"	f
+mp_exptmod_fast	ecc.c	/^int mp_exptmod_fast (mp_int * G, mp_int * X, mp_int * P, mp_int * Y, int redmode)$/;"	f
+mp_get_int	ecc.c	/^unsigned long mp_get_int(mp_int * a) $/;"	f
+mp_grow	ecc.c	/^int mp_grow(mp_int * a, int size)$/;"	f
+mp_init	ecc.c	/^int mp_init(mp_int * a)$/;"	f
+mp_init_copy	ecc.c	/^int mp_init_copy(mp_int * a, mp_int * b)$/;"	f
+mp_init_multi	ecc.c	/^int mp_init_multi(mp_int *mp, ...)$/;"	f
+mp_init_set	ecc.c	/^int mp_init_set(mp_int * a, mp_digit b)$/;"	f
+mp_init_set_int	ecc.c	/^int mp_init_set_int(mp_int * a, unsigned long b)$/;"	f
+mp_init_size	ecc.c	/^int mp_init_size(mp_int * a, int size)$/;"	f
+mp_int	ecc.h	/^}mp_int;$/;"	t	typeref:struct:__anon1
+mp_invmod	ecc.c	/^int mp_invmod(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_invmod_slow	ecc.c	/^int mp_invmod_slow (mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_is_square	ecc.c	/^int mp_is_square(mp_int *arg,int *ret) $/;"	f
+mp_iseven	ecc.h	208;"	d
+mp_isodd	ecc.h	209;"	d
+mp_iszero	ecc.h	207;"	d
+mp_karatsuba_sqr	ecc.c	/^int mp_karatsuba_sqr (mp_int * a, mp_int * b)$/;"	f
+mp_lshd	ecc.c	/^int mp_lshd(mp_int * a, int b)$/;"	f
+mp_mod	ecc.c	/^int mp_mod(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_mod_2d	ecc.c	/^int mp_mod_2d(mp_int * a, int b, mp_int * c)$/;"	f
+mp_mod_d	ecc.c	/^int mp_mod_d(mp_int * a, mp_digit b, mp_digit * c)                                  $/;"	f
+mp_montgomery_setup	ecc.c	/^ mp_montgomery_setup (mp_int * n, mp_digit * rho) $/;"	f
+mp_mul	ecc.c	/^int mp_mul(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_mul_2	ecc.c	/^int mp_mul_2(mp_int * a, mp_int * b)$/;"	f
+mp_mul_2d	ecc.c	/^int mp_mul_2d(mp_int * a, int b, mp_int * c)$/;"	f
+mp_mul_d	ecc.c	/^int mp_mul_d(mp_int * a, mp_digit b, mp_int * c)$/;"	f
+mp_mulmod	ecc.c	/^int mp_mulmod(mp_int * a, mp_int * b, mp_int * c, mp_int * d)$/;"	f
+mp_neg	ecc.c	/^int mp_neg(mp_int * a, mp_int * b)$/;"	f
+mp_prime_is_divisible	ecc.c	/^int mp_prime_is_divisible(mp_int * a, int *result)$/;"	f
+mp_prime_is_prime	ecc.c	/^int mp_prime_is_prime(mp_int * a, int t, int *result)$/;"	f
+mp_prime_miller_rabin	ecc.c	/^int mp_prime_miller_rabin(mp_int * a, mp_int * b, int *result)$/;"	f
+mp_prime_random_ex	ecc.c	/^int mp_prime_random_ex(mp_int *a, int t, int size, int flags, ltm_prime_callback cb, void *dat)$/;"	f
+mp_read_radix	ecc.c	/^int mp_read_radix (mp_int * a, const char *str, int radix)$/;"	f
+mp_read_unsigned_bin	ecc.c	/^int mp_read_unsigned_bin(mp_int * a, const unsigned char *b, int c)$/;"	f
+mp_reduce	ecc.c	/^int mp_reduce (mp_int * x, mp_int * m, mp_int * mu)$/;"	f
+mp_reduce_2k	ecc.c	/^ int mp_reduce_2k(mp_int *a, mp_int *n, mp_digit d)$/;"	f
+mp_reduce_2k_l	ecc.c	/^int mp_reduce_2k_l(mp_int *a, mp_int *n, mp_int *d)$/;"	f
+mp_reduce_2k_setup	ecc.c	/^int mp_reduce_2k_setup(mp_int *a, mp_digit *d)$/;"	f
+mp_reduce_2k_setup_l	ecc.c	/^int mp_reduce_2k_setup_l(mp_int *a, mp_int *d)$/;"	f
+mp_reduce_is_2k	ecc.c	/^int mp_reduce_is_2k(mp_int *a)$/;"	f
+mp_reduce_setup	ecc.c	/^int mp_reduce_setup (mp_int * a, mp_int * b)$/;"	f
+mp_rshd	ecc.c	/^void mp_rshd(mp_int * a, int b)$/;"	f
+mp_s_rmap	ecc.c	/^const char *mp_s_rmap = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+\/";  \/\/??? ?????$/;"	v
+mp_set	ecc.c	/^void mp_set(mp_int * a, mp_digit b)$/;"	f
+mp_set_int	ecc.c	/^int mp_set_int(mp_int * a, unsigned long b)$/;"	f
+mp_sqr	ecc.c	/^int mp_sqr(mp_int * a, mp_int * b)$/;"	f
+mp_sqrmod	ecc.c	/^int mp_sqrmod(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_sqrt	ecc.c	/^int mp_sqrt(mp_int *arg, mp_int *ret)$/;"	f
+mp_sub	ecc.c	/^int mp_sub(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+mp_sub_d	ecc.c	/^	int mp_sub_d(mp_int * a, mp_digit b, mp_int * c)$/;"	f
+mp_submod	ecc.c	/^int mp_submod(mp_int * a, mp_int * b, mp_int * c, mp_int * d)$/;"	f
+mp_toom_mul	ecc.c	/^int mp_toom_mul(mp_int *a, mp_int *b, mp_int *c)$/;"	f
+mp_toom_sqr	ecc.c	/^mp_toom_sqr(mp_int *a, mp_int *b)$/;"	f
+mp_toradix	ecc.c	/^int mp_toradix(mp_int * a, char *str, int radix)$/;"	f
+mp_word	ecc.h	/^typedef __uint128_t      mp_word;$/;"	t
+mp_word	ecc.h	/^typedef ulong64            mp_word;$/;"	t
+mp_word	ecc.h	/^typedef unsigned long      mp_word;$/;"	t
+mp_word	ecc.h	/^typedef unsigned short     mp_word;$/;"	t
+mp_zero	ecc.c	/^void mp_zero(mp_int * a)$/;"	f
+myrng	ecc.c	/^int myrng(unsigned char *dst, int len, void *dat) \/\/产生指定长度的十六进制随机数$/;"	f
+print_mp	ecc.c	/^void print_mp(mp_int *mp)$/;"	f
+rem_105	ecc.c	/^static const char rem_105[105] = {$/;"	v	file:
+rem_128	ecc.c	/^static const char rem_128[128] = {$/;"	v	file:
+s_is_power_of_two	ecc.c	/^static int s_is_power_of_two(mp_digit b, int *p)$/;"	f	file:
+s_mp_add	ecc.c	/^int s_mp_add(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+s_mp_exptmod	ecc.c	/^int s_mp_exptmod (mp_int * G, mp_int * X, mp_int * P, mp_int * Y, int redmode)$/;"	f
+s_mp_mul	ecc.c	1208;"	d	file:
+s_mp_mul_digs	ecc.c	/^int s_mp_mul_digs (mp_int * a, mp_int * b, mp_int * c, int digs)$/;"	f
+s_mp_sqr	ecc.c	/^int s_mp_sqr (mp_int * a, mp_int * b)$/;"	f
+s_mp_sub	ecc.c	/^int s_mp_sub(mp_int * a, mp_int * b, mp_int * c)$/;"	f
+sign	ecc.h	/^	int used, alloc, sign;$/;"	m	struct:__anon1
+temp	ecc.c	/^char temp[200]={0};$/;"	v
+true	ecc.h	97;"	d
+u16	ecc.h	/^typedef unsigned short u16;$/;"	t
+u32	ecc.h	/^typedef unsigned long  u32;$/;"	t
+u8	ecc.h	/^typedef unsigned char  u8;   $/;"	t
+ulong64	ecc.h	/^typedef unsigned __int64   ulong64;$/;"	t
+ulong64	ecc.h	/^typedef unsigned long long ulong64;$/;"	t
+used	ecc.h	/^	int used, alloc, sign;$/;"	m	struct:__anon1
